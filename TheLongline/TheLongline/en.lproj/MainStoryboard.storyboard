@@ -43,9 +43,13 @@
                             <constraint firstItem="tPs-lD-g9T" firstAttribute="centerX" secondItem="Q3M-s4-fv4" secondAttribute="centerX" type="default" id="tKm-rL-Aex"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="infoBoard" destination="tPs-lD-g9T" id="QHD-5z-H6n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-103" y="-242"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cke-4L-23O">
@@ -165,6 +169,9 @@
         </class>
         <class className="TLMainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TLMainViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="infoBoard" candidateClass="UILabel"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TLMainViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *infoBoard;
 
 @end

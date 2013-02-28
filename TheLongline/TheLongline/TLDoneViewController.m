@@ -17,7 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.navigationItem.hidesBackButton = YES;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
 }
 
 @end

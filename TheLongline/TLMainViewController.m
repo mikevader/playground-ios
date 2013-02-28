@@ -20,4 +20,9 @@
 	// Do any additional setup after loading the view.
 }
 
+- (void)setSuccess:(BOOL)success
+{
+    self.infoBoard.text = @"SUCCESS!!!!!";
+}
+
 @end
