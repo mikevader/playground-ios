@@ -156,10 +156,6 @@
     <classes>
         <class className="TBDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TBDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dateField" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nameField" candidateClass="UILabel"/>
-            </relationships>
         </class>
         <class className="TBEventlocationViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TBEventlocationViewController.h"/>
