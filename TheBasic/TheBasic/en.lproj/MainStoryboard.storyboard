@@ -161,7 +161,7 @@
                 <relationship kind="outlet" name="nameField" candidateClass="UILabel"/>
             </relationships>
         </class>
-        <class className="TBEventlocationViewController" superclassName="UITableViewController">
+        <class className="TBEventlocationViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/TBEventlocationViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>

@@ -10,8 +10,7 @@
 #import "TBEvent.h"
 
 @interface TBDetailViewController : UITableViewController
-@property (weak, nonatomic) IBOutlet UILabel *nameField;
-@property (weak, nonatomic) IBOutlet UILabel *dateField;
+
 @property (strong, nonatomic) TBEvent* detailItem;
 
 @end

@@ -19,14 +19,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
-    UIViewController* newStuff = [storyboard instantiateInitialViewController];
-    
-    
     UIViewController *viewController1 = [[TOFirstViewController alloc] initWithNibName:@"TOFirstViewController" bundle:nil];
     UIViewController *viewController2 = [[TOSecondViewController alloc] initWithNibName:@"TOSecondViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2, newStuff];
+    self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

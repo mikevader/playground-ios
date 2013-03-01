@@ -26,10 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-
-    self.nameField.text = self.detailItem.name;
-    self.dateField.text = self.detailItem.date;
+    
     
 }
 
