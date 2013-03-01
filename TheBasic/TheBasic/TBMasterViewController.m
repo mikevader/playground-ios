@@ -104,12 +104,6 @@
         TBEvent *event = _objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:event];
     }
-    
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-        TBEvent *event = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:event];
-    }
 }
 
 @end

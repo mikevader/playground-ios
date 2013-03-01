@@ -25,9 +25,4 @@
     self.infoBoard.text = @"SUCCESS!!!!!";
 }
 
-
-- (IBAction)done:(UIStoryboardSegue*)segue
-{
-    [self setSuccess:YES];
-}
 @end

@@ -17,8 +17,6 @@
 		DDE41BD516E02A4C00342812 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE41BD416E02A4C00342812 /* Default@2x.png */; };
 		DDE41BD716E02A4C00342812 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE41BD616E02A4C00342812 /* Default-568h@2x.png */; };
 		DDE41BDA16E02A4D00342812 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE41BD816E02A4D00342812 /* MainStoryboard.storyboard */; };
-		DDE41BDD16E02A4D00342812 /* TSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE41BDC16E02A4D00342812 /* TSMasterViewController.m */; };
-		DDE41BE016E02A4D00342812 /* TSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE41BDF16E02A4D00342812 /* TSDetailViewController.m */; };
 		DDE41BE816E02FF400342812 /* RotatingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE41BE716E02FF400342812 /* RotatingSegue.m */; };
 		DDE41BEA16E0311300342812 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE41BE916E0311300342812 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -38,10 +36,6 @@
 		DDE41BD416E02A4C00342812 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DDE41BD616E02A4C00342812 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DDE41BD916E02A4D00342812 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DDE41BDB16E02A4D00342812 /* TSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSMasterViewController.h; sourceTree = "<group>"; };
-		DDE41BDC16E02A4D00342812 /* TSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMasterViewController.m; sourceTree = "<group>"; };
-		DDE41BDE16E02A4D00342812 /* TSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSDetailViewController.h; sourceTree = "<group>"; };
-		DDE41BDF16E02A4D00342812 /* TSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSDetailViewController.m; sourceTree = "<group>"; };
 		DDE41BE616E02FF400342812 /* RotatingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingSegue.h; sourceTree = "<group>"; };
 		DDE41BE716E02FF400342812 /* RotatingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingSegue.m; sourceTree = "<group>"; };
 		DDE41BE916E0311300342812 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -96,10 +90,6 @@
 				DDE41BCF16E02A4C00342812 /* TSAppDelegate.h */,
 				DDE41BD016E02A4C00342812 /* TSAppDelegate.m */,
 				DDE41BD816E02A4D00342812 /* MainStoryboard.storyboard */,
-				DDE41BDB16E02A4D00342812 /* TSMasterViewController.h */,
-				DDE41BDC16E02A4D00342812 /* TSMasterViewController.m */,
-				DDE41BDE16E02A4D00342812 /* TSDetailViewController.h */,
-				DDE41BDF16E02A4D00342812 /* TSDetailViewController.m */,
 				DDE41BC716E02A4C00342812 /* Supporting Files */,
 				DDE41BE616E02FF400342812 /* RotatingSegue.h */,
 				DDE41BE716E02FF400342812 /* RotatingSegue.m */,
@@ -190,8 +180,6 @@
 			files = (
 				DDE41BCD16E02A4C00342812 /* main.m in Sources */,
 				DDE41BD116E02A4C00342812 /* TSAppDelegate.m in Sources */,
-				DDE41BDD16E02A4D00342812 /* TSMasterViewController.m in Sources */,
-				DDE41BE016E02A4D00342812 /* TSDetailViewController.m in Sources */,
 				DDE41BE816E02FF400342812 /* RotatingSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +303,7 @@
 				DDE41BE516E02A4D00342812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,9 +21,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="7O4-gZ-K8o" kind="custom" customClass="RotatingSegue" id="JoM-pH-kPB"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.9960784912109375" green="0.027450982481241226" blue="0.0039215688593685627" alpha="1" colorSpace="deviceRGB"/>
@@ -54,9 +51,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="mFP-bp-8J7" kind="custom" customClass="RotatingSegue" id="kJh-Jf-etV"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0039215688593685627" green="0.9960784912109375" blue="0.054901964962482452" alpha="1" colorSpace="deviceRGB"/>
@@ -87,9 +81,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="LLS-uD-v0e" kind="custom" customClass="RotatingSegue" id="NYN-W0-8U8"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.074509806931018829" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
@@ -120,9 +111,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="u20-Pq-zfB" kind="custom" customClass="RotatingSegue" id="VPh-Tm-Wvf"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
