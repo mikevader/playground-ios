@@ -20,4 +20,9 @@
 	self.navigationItem.hidesBackButton = YES;
 }
 
+- (IBAction)reset:(UIStoryboardSegue*)segue
+{
+    // clear some fields
+}
+
 @end
