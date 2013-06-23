@@ -90,7 +90,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="followMail:" destination="2" eventType="touchUpInside" id="AHB-by-9XJ"/>
                                     <action selector="followSMS:" destination="2" eventType="touchUpInside" id="eQH-UR-SZC"/>
                                 </connections>
                             </button>
@@ -105,7 +104,6 @@
                                 </state>
                                 <connections>
                                     <action selector="followMySpecialUrl:" destination="2" eventType="touchUpInside" id="NTA-Wa-GoL"/>
-                                    <action selector="followMyUrl:" destination="2" eventType="touchUpInside" id="mId-aB-qFx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -138,6 +136,24 @@
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TOViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TOViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="createTweet:"/>
+                <relationship kind="action" name="followLocation:"/>
+                <relationship kind="action" name="followMail:"/>
+                <relationship kind="action" name="followMySpecialUrl:"/>
+                <relationship kind="action" name="followMyUrl:"/>
+                <relationship kind="action" name="followSMS:"/>
+                <relationship kind="action" name="follwoTel:"/>
+                <relationship kind="outlet" name="options" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

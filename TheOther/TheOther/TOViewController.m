@@ -51,11 +51,11 @@
 }
 
 - (IBAction)followMyUrl:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"anduin://asdf"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"anduin://anduin.ch/test"]];
 }
 
 - (IBAction)followMySpecialUrl:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"anduin://asdf"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://anduin.ch/hellowWorld"]];
 }
 
 - (void)didReceiveMemoryWarning

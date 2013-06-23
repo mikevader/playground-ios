@@ -10,6 +10,7 @@
 
 @interface TOAppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (nonatomic, strong) NSString* options;
 @property (strong, nonatomic) UIWindow *window;
 
 @end

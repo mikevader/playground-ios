@@ -7,6 +7,7 @@
 //
 
 #import "TOViewController.h"
+#import "TOAppDelegate.h"
 
 @interface TOViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    TOAppDelegate* app = [UIApplication sharedApplication].delegate;
+    
+    self.options.text = [NSString stringWithFormat:@"Launch Options: %@",  app.options];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TOViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *options;
 
 @end

@@ -10,7 +10,7 @@
 				<string>anduin</string>
 			</array>
 			<key>CFBundleURLName</key>
-			<string>ch.anduin.www</string>
+			<string>ch.anduin</string>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
