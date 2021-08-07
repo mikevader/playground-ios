@@ -93,31 +93,15 @@
                                     <action selector="followSMS:" destination="2" eventType="touchUpInside" id="eQH-UR-SZC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5f-hG-KF8">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Follow special own">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="followMySpecialUrl:" destination="2" eventType="touchUpInside" id="NTA-Wa-GoL"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="HX9-A0-ooo" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0EC-R3-H4F"/>
                             <constraint firstItem="4yp-f9-oRn" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3Ww-5s-fny"/>
-                            <constraint firstItem="A5f-hG-KF8" firstAttribute="leading" secondItem="ifH-QA-4VR" secondAttribute="leading" type="default" id="3wa-C0-DaD"/>
                             <constraint firstAttribute="trailing" secondItem="n0c-Ec-mCU" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4gW-oF-q2G"/>
-                            <constraint firstItem="A5f-hG-KF8" firstAttribute="top" secondItem="ifH-QA-4VR" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="7a9-s7-c77"/>
                             <constraint firstAttribute="trailing" secondItem="HX9-A0-ooo" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="9JQ-WA-FJt"/>
                             <constraint firstItem="ifH-QA-4VR" firstAttribute="top" secondItem="1Ri-n2-hZq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="9mo-dq-j3Y"/>
                             <constraint firstAttribute="trailing" secondItem="1Ri-n2-hZq" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="DtP-qj-bas"/>
-                            <constraint firstAttribute="trailing" secondItem="A5f-hG-KF8" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="IJK-No-Oc8"/>
                             <constraint firstItem="n0c-Ec-mCU" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="NRb-Ns-wfM"/>
                             <constraint firstItem="HX9-A0-ooo" firstAttribute="top" secondItem="n0c-Ec-mCU" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="V6l-G2-yhB"/>
                             <constraint firstAttribute="trailing" secondItem="6vW-cg-LxF" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="WD0-hq-CJ2"/>

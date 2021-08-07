@@ -7,6 +7,7 @@
 //
 
 #import "TOViewController.h"
+#import <Social/Social.h>
 
 @interface TOViewController ()
 
@@ -27,11 +28,11 @@
     
 }
 
-- (IBAction)followSMS:(id)sender {
+- (IBAction)followSMS:(id)url {
     // sms:
     // sms:1-408-555-1212
 
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"sms:"]];
+    [[UIApplication sharedApplication] canOpenURL:url];
 }
 
 - (IBAction)followMail:(id)sender {
@@ -48,6 +49,8 @@
 }
 
 - (IBAction)createTweet:(id)sender {
+    SLComposeViewController* tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    [self presentViewController:tweetSheet animated:YES completion:^{}];
 }
 
 - (IBAction)followMyUrl:(id)sender {

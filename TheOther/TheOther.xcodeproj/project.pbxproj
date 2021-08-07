@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9C3298177718AF00FE5D19 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9C3297177718AF00FE5D19 /* Social.framework */; };
 		4CEF165A177369D50093CF39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEF1659177369D50093CF39 /* UIKit.framework */; };
 		4CEF165C177369D50093CF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEF165B177369D50093CF39 /* Foundation.framework */; };
 		4CEF165E177369D50093CF39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEF165D177369D50093CF39 /* CoreGraphics.framework */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		4C189BAF17760624007D3A68 /* TheOtherReceiver.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheOtherReceiver.xcodeproj; path = TheOtherReceiver/TheOtherReceiver.xcodeproj; sourceTree = "<group>"; };
+		4C9C3297177718AF00FE5D19 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4CEF1656177369D50093CF39 /* TheOther.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOther.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEF1659177369D50093CF39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CEF165B177369D50093CF39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9C3298177718AF00FE5D19 /* Social.framework in Frameworks */,
 				4CEF165A177369D50093CF39 /* UIKit.framework in Frameworks */,
 				4CEF165C177369D50093CF39 /* Foundation.framework in Frameworks */,
 				4CEF165E177369D50093CF39 /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +80,7 @@
 		4CEF164D177369D50093CF39 = {
 			isa = PBXGroup;
 			children = (
+				4C9C3297177718AF00FE5D19 /* Social.framework */,
 				4CEF165F177369D50093CF39 /* TheOther */,
 				4CEF1658177369D50093CF39 /* Frameworks */,
 				4CEF1657177369D50093CF39 /* Products */,
